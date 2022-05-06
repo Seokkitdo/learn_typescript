@@ -18,10 +18,10 @@ function add(a: number, b: number): number {
 // }
 
 // 함수 인자
-function log(a: string) {
-  console.log(a);
-}
-log('a', 10);
+// function log(a: string) {
+//   console.log(a);
+// }
+// log('a', 10);
 
 // 함수 옵셔널 파라미터(optional parameter)
 function printText(text: string, type?: string) {

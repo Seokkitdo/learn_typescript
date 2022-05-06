@@ -2,6 +2,7 @@ let todoItems;
 
 // api
 function fetchTodoItems() {
+  return new Promise();
   const todos = [
     { id: 1, title: '안녕', done: false },
     { id: 2, title: '타입', done: false },
