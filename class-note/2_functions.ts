@@ -11,8 +11,13 @@ function add(): number {
 }
 
 // 함수의 타입을 정의하는 방식
+// function sum(a: number,b: number): number {
+//     return a + b;
+// }
+
+
+// 불필요한 인자가 넘어올 경우 엄격하게 체크해준다.
 function sum(a: number,b: number): number {
     return a + b;
 }
-
-sum(10, 20);
+sum(10, 20, 30);
